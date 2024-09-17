@@ -1,0 +1,75 @@
+
+:root {
+    --color-slate-900: #1F314F;
+    --color-slate-500: #68778D;
+    --color-slate-300: #D5E1EF;
+    --color-blue-600: #2C7DFA;
+    --color-blue-500: #3685FF;
+    --color-white: #FFFFFF;
+
+    --space-500: 40px;
+    --space-300: 24px;
+    --space-200: 16px;
+
+    --font-size-text-preset-1: 22px;
+    --font-size-text-preset-2: 15px; 
+
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0px;
+}
+
+.container {
+    background-color: var(--color-slate-300);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    display: inline-block;
+    border-radius: 20px;
+    padding: 16px 16px 40px 16px;
+    background-color: var(--color-white);
+}
+
+.qr-image {
+    margin-bottom: 24px; 
+    width: 288px;
+    height: 288px;
+}
+
+.text-parent {
+    text-align: center;
+    width: 0px;
+    min-width: 100%;
+    padding: 0px 16px;
+    font-family: "Outfit", sans-serif;
+}
+
+.title {
+    font-size: var(--font-size-text-preset-1);
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.description {
+    font-size: var(--font-size-text-preset-2);
+    margin-top: 16px;
+    line-height: 1.4;
+}
+
+/* .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} */
